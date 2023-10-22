@@ -20,7 +20,7 @@ const Navbar = () => {
         </Link>
 
         <form onSubmit={searchMovie}>
-          <div className="space-x-4 lg:mr-7">
+          <div className="space-x-4">
             <input
               className="bg-secondary px-4 py-2 outline-none placeholder:text-textColor"
               type="text"
